@@ -1,0 +1,138 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: .9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    background-color: hsl(213, 19%, 18%);
+    width: 90%;
+    height: 368px;
+    padding: 1.5em;
+    margin: 5em auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+/* ratings styles */
+
+.star-icon {
+    background-color: hsl(213, 22%, 24%);
+    padding: .7rem;
+    border-radius: 50%;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 1rem 0;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background: hsl(213, 22%, 24%);
+	border: none;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+	cursor: pointer;
+}
+
+.btn:active {
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    margin: 0 auto 2em auto;
+    padding: 1.3em;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 40px;
+	cursor: pointer;
+}
+
+/* thank you styles */
+
+@media only screen and (min-width: 750px) {
+    /* ratings styles */
+
+    .main-container {
+        max-width: 530px;
+        height: 528px;
+        padding: 2em 3.5em;
+        border-radius: 40px;
+    }
+
+    .star-icon {
+        width: 65px;
+        padding: 1.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-top: 1em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
+
+    .btn {
+        width: 3.5em;
+        height: 3.5em;
+        font-size: 1.3em;
+        margin: 1em 0;
+    }
+
+    .btn-submit {
+        font-size: 1.3em;
+        letter-spacing: .1em;
+        padding: 1em;
+    }
+
+    /* thank you styles */
+}
