@@ -80,6 +80,7 @@ ul {
 
 .btn:active {
     background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
 }
 
 
