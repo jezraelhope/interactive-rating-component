@@ -10,7 +10,6 @@ const submitButton = document.querySelector('.btn-submit');
 
 ul.addEventListener('click' , (e) => {
     rating.innerText = e.target.innerText;
-    console.log(rating.innerText)
 })
 
 const toggleDisplay = () => {
