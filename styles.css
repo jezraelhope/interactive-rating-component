@@ -119,7 +119,25 @@ ul {
 }
 
 #thank-you-container img {
-    width: 130px;
+    width: 150px;
+    height: 95px;
+}
+
+.selected-container {
+    background-color: hsl(217, 12%, 63%, .3);
+    margin: 1.5rem auto;
+    border-radius: 30px
+}
+
+.selected-container p {
+    color: hsl(25, 97%, 53%);
+    margin: .3rem .7rem  .1rem
+}
+
+#thank-you {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 
@@ -131,6 +149,4 @@ ul {
         max-width: 360px;
         height: 350px;
     }
-
-    /* thank you styles */
 }
