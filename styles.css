@@ -78,8 +78,14 @@ ul {
 	cursor: pointer;
 }
 
-.btn:active {
+.btn:hover {
     background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: 0.2s;
+}
+
+.btn:focus {
+    background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
 }
 
@@ -93,14 +99,30 @@ ul {
     color: hsl(0, 0%, 100%);
     border-radius: 40px;
 	cursor: pointer;
+    transition: 0.3s;
 }
 
-.btn-submit:active {
+.btn-submit:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
 
 /* thank you styles */
+
+#thank-you-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#thank-you-container img {
+    width: 130px;
+}
+
+
 
 @media only screen and (min-width: 750px) {
     /* ratings styles */
